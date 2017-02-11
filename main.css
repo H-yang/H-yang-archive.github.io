@@ -21,7 +21,8 @@
 	position: absolute; 
 	top:80px; 
 	left:310px; 
-	width:750px; 
+	width:720px; 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
 }
 
 p {
