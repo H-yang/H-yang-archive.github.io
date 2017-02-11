@@ -1,0 +1,105 @@
+#wrapper{
+   width: 800px;
+   margin: auto;
+}
+
+#header{
+	text-shadow:1px 1px 2px rgba(186,186,162,1);
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#8F4301;
+	letter-spacing:1pt;
+	font-size:50px;
+	text-align:left;
+	font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
+	line-height:1;
+}
+#header-1{
+	height: 40px;
+	text-align:right; 
+	text-shadow:1px 1px 2px rgba(186,186,162,1);
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#8F4301;
+	letter-spacing:1pt;
+	font-size:25px;
+}
+
+#content{
+  height: 500px;
+  border-radius:20px;
+  background-image:url(http://web.ntnu.edu.tw/~40047901s/bookshelf.JPG); 
+  background-repeat: repeat-y;
+}
+
+#content_{
+  border-radius:20px;
+  background-image:url(http://web.ntnu.edu.tw/~40047901s/bookshelf.JPG); 
+  background-repeat: repeat-y;
+}
+
+#booktable{
+	width: 750px;
+}
+
+#books{
+  border-radius:20px;
+  background-image:url(http://web.ntnu.edu.tw/~40047901s/bookshelf.JPG); 
+  background-repeat: repeat-y;
+  background-color: #EBBA87;
+}
+
+#footer{
+  font-size: 9pt;
+}
+
+/*menu bar*/
+#menu{
+	width: 800px;
+	height: 40px;
+	clear: both;
+	font-size: 12px;
+}
+ul.navi{
+	float: left;
+	width: 800px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #00A052;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-radius-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-radius-top-left-radius: 10px;
+}
+
+ul. navi li{
+	display: inline;
+}
+
+ul.navi li a{
+	float: left;
+	font: bold 14px;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #880000;
+	margin: 0;
+	padding: 0 30px;
+	background: #00A052;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-radius-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-radius-top-left-radius: 10px;
+}
+
+ul.navi .current a, ul.navi li:hover > a{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #330000;
+	background: #23D77F;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-radius-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-radius-top-left-radius: 10px;
+}
